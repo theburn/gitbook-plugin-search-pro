@@ -18,7 +18,13 @@ Put this in your book.json:
     "plugins": [
       "search",   //这里如果关闭的话，搜索框都没有了，可以打开，并且可以共存
       "search-pro"  // gitbook install以后（gitbook-plugin原版）,再用我的去覆盖即可
-    ]
+    ],
+    "pluginsConfig": {
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord" : ["小需求","基础建设"]
+        }
+    }
 }
 ```
 
