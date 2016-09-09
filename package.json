@@ -1,12 +1,76 @@
 {
-  "name": "gitbook-plugin-search-pro",
-  "version": "1.0.9",
-  "description": "Gitbook search engine pro. (支持中文搜索)",
-  "author": {
-    "name": "xunuo",
-    "email": "i@xunuo.com"
+  "_args": [
+    [
+      {
+        "hosted": {
+          "directUrl": "https://raw.githubusercontent.com/hiant/gitbook-plugin-search-pro/master/package.json",
+          "gitUrl": "git://github.com/hiant/gitbook-plugin-search-pro.git",
+          "httpsUrl": "git+https://github.com/hiant/gitbook-plugin-search-pro.git",
+          "shortcut": "github:hiant/gitbook-plugin-search-pro",
+          "ssh": "git@github.com:hiant/gitbook-plugin-search-pro.git",
+          "sshUrl": "git+ssh://git@github.com/hiant/gitbook-plugin-search-pro.git",
+          "type": "github"
+        },
+        "name": "gitbook-plugin-search-pro",
+        "raw": "gitbook-plugin-search-pro@git+https://github.com/hiant/gitbook-plugin-search-pro.git",
+        "rawSpec": "git+https://github.com/hiant/gitbook-plugin-search-pro.git",
+        "scope": null,
+        "spec": "git+https://github.com/hiant/gitbook-plugin-search-pro.git",
+        "type": "hosted"
+      },
+      "/opt/gitbook/linux_quick_book_v1"
+    ]
+  ],
+  "_from": "git+https://github.com/hiant/gitbook-plugin-search-pro.git",
+  "_id": "gitbook-plugin-search-pro@1.0.9",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/gitbook-plugin-search-pro",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/hiant/gitbook-plugin-search-pro/master/package.json",
+      "gitUrl": "git://github.com/hiant/gitbook-plugin-search-pro.git",
+      "httpsUrl": "git+https://github.com/hiant/gitbook-plugin-search-pro.git",
+      "shortcut": "github:hiant/gitbook-plugin-search-pro",
+      "ssh": "git@github.com:hiant/gitbook-plugin-search-pro.git",
+      "sshUrl": "git+ssh://git@github.com/hiant/gitbook-plugin-search-pro.git",
+      "type": "github"
+    },
+    "name": "gitbook-plugin-search-pro",
+    "raw": "gitbook-plugin-search-pro@git+https://github.com/hiant/gitbook-plugin-search-pro.git",
+    "rawSpec": "git+https://github.com/hiant/gitbook-plugin-search-pro.git",
+    "scope": null,
+    "spec": "git+https://github.com/hiant/gitbook-plugin-search-pro.git",
+    "type": "hosted"
   },
-  "repository": "gitbook-plugins/gitbook-plugin-search-pro",
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "git+https://github.com/hiant/gitbook-plugin-search-pro.git#89b6450f3030b8e8e9ef8b5dd73fb6d11266c5fe",
+  "_shasum": "b75b593e6420ed9d4393155f8783ec4c3ef33276",
+  "_shrinkwrap": null,
+  "_spec": "gitbook-plugin-search-pro@git+https://github.com/hiant/gitbook-plugin-search-pro.git",
+  "_where": "/opt/gitbook/linux_quick_book_v1",
+  "analyze": true,
+  "author": {
+    "email": "i@xunuo.com",
+    "name": "xunuo"
+  },
+  "bugs": {
+    "url": "https://github.com/hiant/gitbook-plugin-search-pro/issues"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "segment": "^0.1.3"
+  },
+  "description": "Gitbook search engine pro. (支持中文搜索)",
+  "devDependencies": {},
+  "engines": {
+    "gitbook": "*"
+  },
+  "gitHead": "89b6450f3030b8e8e9ef8b5dd73fb6d11266c5fe",
+  "homepage": "https://github.com/hiant/gitbook-plugin-search-pro#readme",
   "keywords": [
     "中文",
     "搜索",
@@ -14,13 +78,14 @@
     "gitbook",
     "search"
   ],
-  "engines": {
-    "gitbook": "*"
+  "license": "MIT",
+  "name": "gitbook-plugin-search-pro",
+  "optionalDependencies": {},
+  "readme": "## gitbook-plugin-search-pro\n\nGitbook search engine pro. (支持中文搜索)\n从 gitbook-plugins/gitbook-plugin-search-pro fork出来后，把结巴分词改成了盘古分词。结巴分词在windows环境上安装编译失败。\n\n### Demo preview\n\n![](https://raw.githubusercontent.com/gitbook-plugins/gitbook-plugin-search-pro/master/demo/show-1.gif)\n\n### Usage\n\nPut this in your book.json:\n\n```js\n{\n    \"plugins\": [\n      \"-search\",\n      \"search-pro@git+https://github.com:hiant/gitbook-plugin-search-pro.git\"\n    ]\n}\n```\n\nAnd\n\n```\nnpm install\nnpm build/serve\n```\n\nThanks: segment(盘古分词中文分词功能)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiant/gitbook-plugin-search-pro.git"
   },
-  "dependencies": {
-    "lodash": "^3.10.1",
-    "nodejieba": "^1.4.1"
-  },
-  "analyze": true,
-  "license": "MIT"
+  "version": "1.0.9"
 }
