@@ -22,4 +22,3 @@ Put this in your book.json:
 }
 ```
 
-原本用于下载依赖，替换我的版本用于解决语法问题。     
